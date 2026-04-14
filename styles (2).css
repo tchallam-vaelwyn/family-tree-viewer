@@ -1,0 +1,54 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+#container {
+  display: flex;
+  gap: 20px;
+  margin-top: 20px;
+}
+
+#peopleList {
+  width: 35%;
+  max-height: 80vh;
+  overflow-y: auto;
+  border-right: 1px solid #ccc;
+  padding-right: 10px;
+}
+
+#peopleList div {
+  cursor: pointer;
+  padding: 4px;
+}
+
+#peopleList div:hover {
+  background: #eee;
+}
+
+#details {
+  flex-grow: 1;
+  max-height: 80vh;
+  overflow-y: auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+pre {
+  background: #f7f7f7;
+  padding: 8px;
+  overflow-x: auto;
+}
+
+.link {
+  color: blue;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+#searchBox {
+  width: 95%;
+  padding: 6px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}

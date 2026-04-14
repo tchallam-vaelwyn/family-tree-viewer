@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>GEDCOM Viewer</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<h1>GEDCOM Viewer</h1>
+<p>Select a .ged file to view the individuals and their family relationships.</p>
+<input type="file" id="gedInput" accept=".ged">
+
+<div id="container">
+  <div>
+    <h2>Individuals</h2>
+    <input type="text" id="searchBox" placeholder="Search name...">
+    <div id="peopleList"></div>
+  </div>
+
+  <div>
+    <h2>Details</h2>
+    <div id="details">Select a person to view details.</div>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
