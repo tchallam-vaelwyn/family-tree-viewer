@@ -103,6 +103,8 @@ input.addEventListener('change', () => {
     IND = parsed.individuals;
     FAM = parsed.families;
     renderFilteredList();
+    populateRelationshipDropdowns();
+details.innerHTML = "Select a person to view details.";
     details.innerHTML = "Select a person to view details.";
   };
   reader.readAsText(file);
